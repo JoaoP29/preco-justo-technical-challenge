@@ -1,7 +1,7 @@
 # Desafio técnico para Preço Justo
 Desafio técnico para preenchimento de uma vaga de Analista de Testes.
 
-Para ver a execução deste desafio, basta seguir este [link da gravação no Loom](https://www.loom.com/share/98164b06cc7a48a782c7378625e2f1ad?sid=c44de110-53ab-4ae9-ab68-025a7e504629)
+Para ver a execução deste desafio, basta seguir este [link da gravação no Loom](https://www.loom.com/share/12f78f8ea5bd4ef3868ba3190c87a020?sid=9bb09baf-0ce0-4a95-a206-29f7ac6adb9c)
 
 ## Automação de Testes com Selenium e Cucumber
 
