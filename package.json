@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npx cucumber-js",
     "test:report": "cucumber-js --format json:./reports/cucumber_report.json",
-    "report": "node generateReport.js"
+    "report": "node report.js"
   },
   "repository": {
     "type": "git",

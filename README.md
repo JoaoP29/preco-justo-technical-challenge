@@ -1,5 +1,7 @@
 # Desafio técnico para Preço Justo
- a technical challenge in order to fill a position of QA Analyst at Preço Justo
+Desafio técnico para preenchimento de uma vaga de Analista de Testes.
+
+Para ver a execução deste desafio, basta seguir este [link da gravação no Loom](https://www.loom.com/share/98164b06cc7a48a782c7378625e2f1ad?sid=c44de110-53ab-4ae9-ab68-025a7e504629)
 
 ## Automação de Testes com Selenium e Cucumber
 
@@ -9,7 +11,7 @@ Este projeto utiliza o Selenium WebDriver, o Cucumber e a biblioteca cucumber-ht
 
 Antes de começar, certifique-se de que você tenha o seguinte instalado em sua máquina:
 
-- [Node.js](https://nodejs.org/) (versão 12 ou superior)
+- [Node.js](https://nodejs.org/) (eu utilizei a versão 20.17)
 - [npm](https://www.npmjs.com/) (gerenciador de pacotes do Node.js)
 
 Para instruções de configuração do Selenium, visite a própria documentação técnica do framework.
@@ -51,26 +53,39 @@ Para instruções de configuração do Selenium, visite a própria documentaçã
 
 Após a execução dos testes, o Cucumber irá gerar os resultados em formato JSON. Para gerar o relatório HTML utilizando o cucumber-html-reporter, siga os passos abaixo:
 
-1. Crie um arquivo report.js na raiz do projeto com o seguinte código:
+1. Crie um arquivo report.js na raiz do projeto com o seguinte código (Opcional, pois este arquivo já está criado no projeto):
 
 ```bash
 const reporter = require('cucumber-html-reporter');
 
 const options = {
-    theme: 'bootstrap',
-    jsonFile: 'reports/cucumber_report.json',
-    output: 'reports/cucumber_report.html',
-    reportSuiteAsScenarios: true,
-    launchReport: true,
+  theme: 'bootstrap',
+  jsonFile: './reports/cucumber_report.json', // Caminho do arquivo JSON gerado
+  output: './reports/cucumber_report.html',  // Local do relatório HTML final
+  reportSuiteAsScenarios: true,
+  launchReport: true, // Abre o relatório automaticamente após gerar
+  metadata: {
+    "App Version": "1.0.0",
+    "Test Environment": "Local",
+    "Browser": "Firefox",
+    "Platform": "Windows 11",
+    "Executed": "Local"
+  }
 };
 
 reporter.generate(options);
 ```
 
-2. Depois que os testes forem executados, o arquivo de relatório JSON será gerado na pasta reports. Execute o script report.js para gerar o relatório HTML:
+2. Para executar os testes e gerar o relatório, utilize o comando:
 
 ```bash
-node report.js
+npm run test:report
 ```
 
-3. O relatório HTML será gerado na pasta reports e estará disponível como cucumber_report.html.
+3. Depois que os testes forem executados, o arquivo de relatório JSON será gerado na pasta reports. Execute o script report.js para gerar o relatório HTML:
+
+```bash
+npm run report
+```
+
+4. O relatório HTML será gerado na pasta reports e estará disponível como cucumber_report.html.
