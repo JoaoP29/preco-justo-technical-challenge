@@ -2,7 +2,7 @@
 Desafio técnico para preenchimento de uma vaga de Analista de Testes.
 
 ### Este desafio consiste em duas partes:
-- A parte 1 que se encontra na pasta ***part1-challenge***: o **Plano de Testes para a API da Granja de Patos**
+- A parte 1, que se encontra na pasta ***part1-challenge***: o **Plano de Testes para a API da Granja de Patos**
 - A parte 2, que abrange a maior parte do repositório: a automação com **Selenium** + **Cucumber**
 
 ## Automação de Testes com Selenium e Cucumber
