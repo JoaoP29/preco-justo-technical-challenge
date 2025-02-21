@@ -1,0 +1,26 @@
+{
+  "name": "preco-justo-technical-challenge",
+  "version": "1.0.0",
+  "description": "a technical challenge in order to fill a position of QA Analyst at Preço Justo",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoP29/preco-justo-technical-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JoaoP29/preco-justo-technical-challenge/issues"
+  },
+  "homepage": "https://github.com/JoaoP29/preco-justo-technical-challenge#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "cucumber-html-reporter": "^7.2.0",
+    "selenium-webdriver": "^4.29.0"
+  }
+}
