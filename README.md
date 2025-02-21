@@ -5,11 +5,11 @@ Desafio técnico para preenchimento de uma vaga de Analista de Testes.
 - A parte 1 que se encontra na pasta ***part1-challenge***: o **Plano de Testes para a API da Granja de Patos**
 - A parte 2, que abrange a maior parte do repositório: a automação com **Selenium** + **Cucumber**
 
-Para ver a execução da automação feita para este desafio, basta seguir este [link da gravação no Loom](https://www.loom.com/share/12f78f8ea5bd4ef3868ba3190c87a020?sid=9bb09baf-0ce0-4a95-a206-29f7ac6adb9c)
-
 ## Automação de Testes com Selenium e Cucumber
 
 Este projeto utiliza o Selenium WebDriver, o Cucumber e a biblioteca cucumber-html-reporter para realizar a automação de testes e gerar relatórios finais.
+
+Para ver a execução da automação feita para este desafio, basta seguir este [link da gravação no Loom](https://www.loom.com/share/12f78f8ea5bd4ef3868ba3190c87a020?sid=9bb09baf-0ce0-4a95-a206-29f7ac6adb9c)
 
 ## Requisitos
 
